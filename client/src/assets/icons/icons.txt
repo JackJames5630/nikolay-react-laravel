@@ -1,0 +1,8 @@
+import { FaPaperPlane } from "react-icons/fa";		telegram
+import { HiMail } from "react-icons/hi";		mail
+
+import { SiHabr } from "react-icons/si";		habr
+import { LiaLinkedinIn } from "react-icons/lia";	in
+import { FaFacebookF } from "react-icons/fa";		facebook
+import { IoLogoYoutube } from "react-icons/io5";	youtobe
+import { TbBrandX } from "react-icons/tb";		x

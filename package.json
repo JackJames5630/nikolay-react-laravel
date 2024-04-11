@@ -1,0 +1,27 @@
+{
+  "name": "aaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "sasuke",
+  "repository": "https://github.com/IamSudhir-Kumar/gamersback-fullstack-task.git",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "client": "npm run dev --prefix client ",
+    "server": "nodemon server/server.js",
+    "mongodb": "mongod --dbpath ./database",
+    "dev": "concurrently \"npm run mongodb\" \"npm run server\" \"npm run client\""
+  },
+  "proxy": "http://localhost:5000"
+}
